@@ -4,11 +4,11 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
-email_user = 'ayoain4609@humbleisd.net'
-email_password = 'ayodele1'
-email_send = 'ayoain4609@humbleisd.net'
+email_user = 'insertemailhere23@gmail.com'
+email_password = 'insertpassword'
+email_send = 'insertemailhere23@gmail.com'
 
-subject = 'My stuff'
+subject = 'Email Test'
 
 msg = MIMEMultipart()
 msg['From'] = email_user
